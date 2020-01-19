@@ -1,32 +1,26 @@
-<nav class="uk-navbar-container  uk-navbar-transparent" uk-navbar>
-
-    <div class="uk-navbar-left">
-<a class="uk-navbar-item uk-logo" href="{{site.baseurl}}/"><img data-src="{{site.baseurl}}/img/logo.png" width="250" height="30" alt="" uk-img></a>
-        <ul class="uk-navbar-nav uk-iconnav">
-            <li class="uk-active"><a href="{{site.baseurl}}/" uk-icon="icon: home; ratio: 2"></a></li>
-            <li>
-                <a href="#">Parent</a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Active</a></li>
-                        <li><a href="#">Item</a></li>
-                        <li><a href="#">Item</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="#">Item</a></li>
-        </ul>
-
-    </div>
-
-    <div class="uk-navbar-right">
-
-        <ul class="uk-navbar-nav">
-            <li class="uk-active"><a  href="#" uk-icon="icon: facebook"></a></li>
-            <li class="uk-active"><a  href="#" uk-icon="icon: youtube"></a></li>
-            <li class="uk-active"><a  href="#" uk-icon="icon: twitter"></a></li>
-        </ul>
-
-    </div>
-
-</nav>
+<nav class="uk-navbar uk-margin-large-bottom">
+                <a class="uk-navbar-brand uk-hidden-small" href="{{site.baseurl}}/">
+                  <img src="{{site.baseurl}}/img/logo.png" alt="wikeduk" style="width:200px;height:30px;"></a>
+                <ul class="uk-navbar-nav uk-hidden-small">
+                    <li class="uk-active">
+                        <a href="{{site.baseurl}}/">Frontpage</a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/">Contact</a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/">Login</a>
+                    </li>
+                </ul>
+                <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small"><img src="{{site.baseurl}}/img/logo.png" alt="wikeduk" style="width:200px;height:30px;"></div>
+            </nav>
