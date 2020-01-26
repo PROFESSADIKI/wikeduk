@@ -5,7 +5,7 @@ layout: default
 <div id="home" class="hero-area">
 
   <!-- Backgound Image -->
-  <div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background.jpg)"></div>
+  <div class="bg-image bg-parallax overlay" style="background-image:url({{ site.baseurl }}/img/home-background.jpg)"></div>
   <!-- /Backgound Image -->
 
   <div class="home-wrapper">
@@ -51,7 +51,7 @@ layout: default
               <img src="{{ post.imgurl }}" alt="">
               <i class="course-link-icon fa fa-link"></i>
             </a>
-            <a class="course-title" href="#">{{ post.title }}</a>
+            <a class="course-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <div class="course-details">
               <span class="course-category">{{ post.categories }}</span>
               <span class="course-price course-free">Free</span>
