@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: post
+permalink: /first/
 title:  "Welcome to Jekyll!"
 date:   2020-01-18 21:31:50 +0100
 categories: jekyll update
-imgurl: img/The_Photograph.png
+imgurl: The_Photograph.png
 ---
 
 
