@@ -1,10 +1,11 @@
 ---
 layout: post
+author: "Essadiki"
 permalink: /jekyll/
 title:  "Welcome to Jekyll!"
 date:   2020-01-18 21:31:50 +0100
 categories: jekyll update
-imgurl: The_Photograph.png
+imgurl: img/The_Photograph.png
 ---
 
 
