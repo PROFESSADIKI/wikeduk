@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /first/
+permalink: /jekyll/
 title:  "Welcome to Jekyll!"
 date:   2020-01-18 21:31:50 +0100
 categories: jekyll update
